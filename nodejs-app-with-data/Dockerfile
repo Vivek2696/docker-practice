@@ -10,6 +10,6 @@ COPY . /app
 
 EXPOSE 80
 
-VOLUME ["/app/feedback"]
+# Add named volume while running the container using -v tag
 
 CMD ["node", "server.js"]
